@@ -51,8 +51,10 @@
 		84B1D1532B5DA8F400A172F0 /* Clima */ = {
 			isa = PBXGroup;
 			children = (
+				84B1D1622B5DA90300A172F0 /* Model */,
+				84B1D1632B5DA91000A172F0 /* View */,
+				84B1D1642B5DA91B00A172F0 /* ViewModel */,
 				84B1D1542B5DA8F400A172F0 /* ClimaApp.swift */,
-				84B1D1562B5DA8F400A172F0 /* ContentView.swift */,
 				84B1D1582B5DA8F600A172F0 /* Assets.xcassets */,
 				84B1D15A2B5DA8F600A172F0 /* Preview Content */,
 			);
@@ -65,6 +67,29 @@
 				84B1D15B2B5DA8F600A172F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B1D1622B5DA90300A172F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84B1D1632B5DA91000A172F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84B1D1562B5DA8F400A172F0 /* ContentView.swift */,
+			);
+			name = View;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		84B1D1642B5DA91B00A172F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
