@@ -5,7 +5,7 @@ struct WeatherResponseDataModel: Decodable {
     let name : String
     let weather: [WeatherDataModel]
     let main: TemperatureDataModel
-    let timezone: Int
+    let timezone: Double
     let wind : Wind
     let sys: SunSystem
     
@@ -62,8 +62,8 @@ struct Wind : Decodable{
 
 //Sun time up and down
 struct SunSystem : Decodable {
-    let sunrise: Int
-    let sunset: Int
+    let sunrise: Double
+    let sunset: Double
 }
 
 
