@@ -98,7 +98,7 @@ struct ContentView: View {
                     
                 }
                 
-                Text("Created with ♥️ by Yorgi'Soft.....")
+                Text("Created with ♥️ by Yorgi'Soft...........")
                     .font(.footnote)
                     .foregroundColor(.white)
                     .padding(.top, 70)
